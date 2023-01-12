@@ -1,0 +1,480 @@
+body,html
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    
+
+
+}
+.main-img
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    height:20vw;
+    background-color: #A7A8A9;
+    z-index: 0;
+}
+
+
+.main-img img
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+    z-index: 1;
+    /* object-position: 0 -30vw; */
+    
+    
+}
+.main-img h1
+{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    font-size: 3vw;
+    text-transform: uppercase;
+    z-index:2;
+    text-align: center;
+    font-weight: 300;
+    color: white;
+    /* margin-top: calc((20vw - 3vw)/2); */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+.main
+{
+    position: relative;
+    float: left;
+    /* background-color: gray; */
+    width: 90%;
+    /* height: 30vw; */
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2vw;
+    z-index: 1;
+}
+.search-area
+{
+    position: relative;
+    float: left;
+    background-color:skyblue;
+    width: 25%;
+    height: 100%;
+}
+.calender-box
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    height:20vw;
+    background-color:#287086;
+    padding: 1vw;
+    box-sizing: border-box;
+}
+.check-head
+{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    font-size: 1vw;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 400;
+    color:#dddddd;
+    margin-bottom: 0.5vw;
+    
+}
+.time-head
+{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    font-size: 2vw;
+    width:calc(100% - 3vw);
+    font-weight: 400;
+    color: white;
+    margin-bottom: 1.2vw;
+    line-height: 2vw;
+    vertical-align:middle;
+    margin-left: 1vw;
+}
+.check-clock
+{
+    padding: 0;
+    position: relative;
+    float: left;
+    font-size: 1.5vw;
+    color: white;
+    margin-bottom: 1.2vw;
+    /* margin-top: 0.3vw; */
+    /* margin-bottom: 0.25vw; */
+    line-height: 2vw;
+    vertical-align: middle;
+}
+.bell-icon
+{
+    position: relative;
+    float: left;
+    font-size: 1.5vw;
+    color: white;
+    margin-top: 1vw;
+
+}
+.service
+{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    font-size: 1vw;
+    line-height: 1.5vw;
+    margin-left: 0.9vw;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 1vw;
+}
+.note
+{
+    margin: 0;
+    padding:0 ;
+    position: relative;
+    float: left;
+    font-size: 1vw;
+    margin-top: 2vw;
+    color:yellow;
+    font-weight: 400;
+
+
+}
+
+.room-area
+{
+    position: relative;
+    float: left;
+    width: 75%;
+    height: 100%;
+    z-index: 2;
+    /* background-color:pink; */
+
+
+}
+.room-area-p1
+{
+    position: relative;
+    float: left;
+    width:30%;
+    height: 35vw;
+    border: 0.1vw solid #cccccc;
+    box-sizing: border-box;
+    margin-left: calc((100% - 90%)/6);
+    margin-right: calc((100% - 90%)/6);
+    margin-bottom: 2vw;
+}
+.room-area-p1 img
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    height:13vw;
+    object-fit: cover;
+}
+.room-details
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: calc((100% - 13vw));
+    /* background-color: #6AB1BF; */
+    padding: 1.5vw;
+    box-sizing: border-box;
+}
+
+.room-details h3
+{
+    margin: 0;
+    padding: 0;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 0.5vw;
+    color:#1383aa;
+
+}
+.room-details i
+{
+    position: relative;
+    float: left;
+    font-size: 1.2vw;
+    color:#909090;
+}
+.room-details h4
+{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width:calc((100% - 3vw));
+    float: left;
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-left: 0.9vw;
+    line-height: 1.2vw;
+    color: #909090;
+
+    
+}
+.room-details p
+{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: 2vw;
+    font-size: 1.1vw;
+    color:#909090;
+    line-height: 1.4vw;
+    height: 5vw;
+    
+}
+.room-details h2
+{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    width: 100%;
+    font-size: 1.5vw;
+    color: #505050;
+    margin-top: 1vw;
+}
+.room-details h1
+{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 2.8vw;
+    /* background-color: skyblue; */
+    text-transform: uppercase;
+    font-size: 0.8vw;
+    text-align: center;
+    padding-top: calc((2.5vw - 0.8vw)/2);
+    padding-bottom: calc((2.5vw - 1vw)/2);
+    box-sizing: border-box;
+    margin-top: 2vw;
+    border-top: 0.1vw solid #505050;
+    border-bottom: 0.1vw solid #505050;
+    color: #505050;
+    cursor: pointer;
+}
+.bg-blur
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background:rgba(0, 0, 0, 0.5);
+    z-index: 3;
+    display: none;
+}
+.booking-popup
+{
+    position:fixed;
+    width:30%;
+    height:40vw;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    background-color: #287086;
+    z-index: 4;
+    padding: 2vw;
+    box-sizing: border-box;
+    display: none;
+}
+/* .booking-popup input,.booking-popup select
+{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    width: 80%;
+    height: 2vw;
+    font-size: 1vw;
+    padding-left: 1vw;
+    margin-bottom: 1vw;
+} */
+.close-btn
+{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    font-weight:900;
+    font-size: 1.5vw;
+    right: 1vw;
+    top: 1vw;
+    z-index:5 ;
+    /* display: none; */
+    cursor: pointer;
+    color: white;
+}
+.booking-popup input,.booking-popup select
+{
+    padding-right: 0.5vw;
+    border: none;
+    border-bottom: 0.1vw solid #bbbbbb;
+    outline: none;
+    background-color:#287086;
+    color: white;
+}
+.booking-popup input:focus,.booking-popup select:focus
+{
+    border: none;
+    border-bottom: 0.15vw solid white;
+}
+.check
+{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    font-size: 1vw;
+    width: 100%;
+    text-transform: uppercase;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    color: white;
+}
+.dates
+{
+    width: 30%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    height: 2vw;
+    font-size: 1vw;
+    padding-left: 1vw;
+    margin-bottom: 1vw;
+
+}
+.to 
+{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    line-height: 2vw;
+    vertical-align: middle;
+    font-size: 1vw;
+    color:white;
+}
+.select-room
+{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    font-size: 1vw;
+    width: 100%;
+    text-transform: uppercase;
+    margin-top: 1vw;
+    margin-bottom: 0.5vw;
+    color:white;
+}
+.selection-box
+{
+    width:100%;
+    height: 2vw;
+    font-size: 1vw;
+    padding-left: 0.5vw;
+    margin-bottom: 1vw;
+}
+.name-box
+{
+    width: 100%;
+    font-size: 1vw;
+    height: 2vw;
+    padding-left: 0.5vw;
+    margin-bottom: 1vw;
+    box-sizing: border-box;
+
+}
+.p-num
+{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    font-size: 1vw;
+    width: 100%;
+    text-transform: uppercase;
+    margin-top: 1vw;
+    margin-bottom: 0.5vw;
+    color:white;
+}
+.num-box
+{
+    padding: 0;
+    width: 4vw;
+    height: 3vw;
+    font-size: 1vw;
+    /* height: 2vw; */
+    padding-left: 0.5vw;
+    margin-bottom: 1vw;
+    box-sizing: border-box;
+}
+.contact-box
+{
+    width: 100%;
+    font-size: 1vw;
+    height: 2vw;
+    padding-left: 0.5vw;
+    margin-bottom: 1vw;
+    box-sizing: border-box;
+}
+.payment
+{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 2.8vw;
+    /* background-color: skyblue; */
+    text-transform: uppercase;
+    font-size: 0.8vw;
+    text-align: center;
+    padding-top: calc((2.5vw - 0.8vw)/2);
+    padding-bottom: calc((2.5vw - 1vw)/2);
+    box-sizing: border-box;
+    margin-top: 2vw;
+    border-top: 0.1vw solid white;
+    border-bottom: 0.1vw solid white;
+    color: white;
+    margin-left: calc((100% - 50%)/2);
+    margin-right: calc((100% - 50%)/2);
+    cursor: pointer;
+}
+
+@media screen and (max-width:600px) 
+{
+    .main-img
+    {
+        height:50vw;
+    }
+}
+

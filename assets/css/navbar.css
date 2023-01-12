@@ -1,0 +1,324 @@
+.header
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 2.5vw;
+    background-color: #287086;
+    padding-left:10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+.header1
+{
+    position: relative;
+    float: left;
+    width: 60%;
+    height:100%;
+    /* background-color:blue; */
+    
+    
+}
+.header1 i
+{
+    position: relative;
+    float: left;
+    color:white; 
+    font-size: 1.2vw;
+    margin-left: 1vw;
+    margin-top:0.65vw;
+    margin-bottom: 0.65vw;
+    /* font-family: 'Lato', sans-serif; */
+}
+.light-icon
+{
+  color: #E9F0F2 !important;  
+}
+
+.header1 h5
+{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    display: inline;
+    font-size: 1vw;
+    padding-top: 0.75vw;
+    padding-bottom: 0.75vw;
+    padding-left:0.8vw;
+    padding-right: 1vw;
+    color: #E9F0F2;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.header2
+{
+    position: relative;
+    float: left;
+    width: 40%;
+    height:100%;
+    /* background-color:red; */
+
+}
+.header2 i
+{
+    position: relative;
+    float: left;
+    color:#E9F0F2; 
+    font-size: 1.2vw;
+    margin-left: 0.5vw;
+    margin-top:0.65vw;
+    margin-bottom: 0.65vw;
+    padding-left: 2vw;
+    
+}
+.header2 h5
+{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    display: inline;
+    font-size: 1vw;
+    padding-top: 0.75vw;
+    padding-bottom: 0.75vw;
+    padding-left:0.5vw;
+    color:#E9F0F2;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.contenthead2
+{
+    position: relative;
+    float: right;
+    padding-right: 0.5vw;
+}
+.main-heading
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    /* background-color: red; */
+    /* margin-left: 10%;
+    margin-right: 10%; */
+
+    
+}
+.main-heading h1
+{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    text-transform: uppercase;
+    /* padding-top: 2vw;
+    padding-bottom: 2vw; */
+    padding:2vw 0;
+    padding-bottom:0vw;
+    text-align: center;
+    font-size:3.5vw;
+    font-weight: 300;
+    width: 100%;
+    color: #676767;
+ 
+
+
+
+}
+.main-heading h6
+{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    text-transform: uppercase;
+    /* padding-top: 2vw;
+    padding-bottom: 2vw; */
+    padding:2vw 0;
+    padding-top: 1vw;
+    text-align: center;
+    font-size:1vw;
+    font-weight: 400;
+    width: 100%;
+    color: #676767;
+ 
+
+
+
+}
+.navbar
+{
+    position: relative;
+    float: left;
+    /* background-color: blue; */
+    width: 100%;
+    height:3vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5vw;
+
+}
+.navbar a
+{
+    position: relative;
+    float: left;
+    text-decoration: none;
+    color: #A7A8A9;
+    display: block;
+    padding:0.85vw 0.5vw;
+    font-size:1.3vw;
+    margin:0 0.2vw;
+    box-sizing: border-box;
+    width:8vw;
+    text-align: center;
+    /* background-color: yellow; */
+    
+
+    
+}
+.navbar a:hover
+{
+    background-color:#fafafa;
+    border-bottom: 0.1vw solid #6AB1BF;
+    color: #6AB1BF;
+
+}
+.nav-active
+{
+    color:#6AB1BF !important ;
+}
+.nav-active:hover
+{
+    border: none !important;
+    background-color: none !important;
+}
+.booknow-btn
+{
+    padding:0.5vw 0.5vw !important;
+    background-color:#6AB1BF !important;
+    margin: 0.5vw 0.5vw !important;
+    color: white !important;
+    text-transform: uppercase;
+    font-size: 1vw !important;
+    
+}
+.side-btn
+{
+    display: none;
+}
+.side-nav
+{
+    display: none;
+}
+
+
+@media screen and (max-width:600px)
+{
+    .header
+    {
+        display: none;
+    }
+    .main-heading h1
+    {
+        font-size: 7.5vw;
+        padding:3vw 0;
+        padding-bottom: 0vw;
+    }
+    .main-heading h6 
+    {
+        font-size: 2vw;
+    }
+    .navbar
+    {
+        display: none;
+    }
+    .side-btn
+    {
+        display: block;
+        position: absolute;
+        font-size: 4vw;
+        top: 50%;
+        right: 5vw;
+        transform: translate(0 , -50%);
+    
+    }
+    
+    .side-nav
+    {
+        display: block;
+        position: fixed;
+        right: -50vw;
+        top: 0;
+        height: 100%;
+        width: 50vw;
+        background-color: #287086;
+        z-index: 10;
+        /* box-shadow:-2vw 0 2vw rgba(0, 0,0, 0.7); */
+        box-shadow: none;
+        transition: all 1s;
+    
+        /* display: none; */
+
+        
+    }
+    .close-nav
+    {
+        position: relative;
+        float: top;
+        width: 100%;
+        font-size: 5vw;
+        color: white;
+        left: 42vw;
+        top: 0;
+        
+    }
+    .side-nav a
+    {
+        position: relative;
+        float: top;
+        text-decoration: none;
+        color: white;
+        display: block;
+        font-size:4vw;
+        box-sizing: border-box;
+        width:100%;
+        text-align: center;
+        margin-bottom: 8vw;
+        /* background-color: yellow; */
+        
+
+        
+    }
+    .side-nav a:hover
+    {
+        background-color:#fafafa;
+        border-bottom: 0.1vw solid #6AB1BF;
+        color:skyblue;
+
+    }
+    .nav-active
+    {
+        color:skyblue !important ;
+    }
+    .nav-active:hover
+    {
+        border: none !important;
+        background-color: none !important;
+    }
+    .booknow-btn
+    {
+        /* padding:0.5vw 0.5vw !important; */
+        background-color:#6AB1BF !important;
+        color: white !important;
+        text-transform: uppercase;
+        font-size: 4vw !important;
+        width: 60% !important;
+        height: 8vw;
+        margin-left: calc((100% - 60%)/2) !important;
+        margin-top: 5vw !important;
+        padding-top: 2vw !important;
+        padding-right: 2vw !important;
+        
+    }
+    
+}

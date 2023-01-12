@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/rooms.css">
+    <link rel="stylesheet" href="../css/footer.css">
+
+    <script src="../js/booking-popup.js"></script>
+    <script src="../js/side-nav.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="header1">
+            <i class="fa-solid fa-share-nodes light-icon"></i>
+            <h5>Our Social</h5>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+        </div>
+        <div class="header2">
+            <div class="contenthead2">
+                <i class="fa-solid fa-star"></i>
+                <h5>our rooms</h5>
+                <i class="fa-solid fa-location-dot"></i>
+                <h5>contact us</h5>
+            </div>
+        </div>
+    </div>
+    <div class="main-heading">
+        <h1>gateway</h1>
+        <h6>-&nbsp;hotel resort&nbsp;-</h6>
+        <i class="fa-solid fa-bars side-btn" onclick="opensidenav()"></i>
+
+    </div>
+    <div class="side-nav" id="side-nav">
+        <h3 class="close-nav" onclick="closesidenav()">X</h3>
+        <a href="../../index.html">Home</a>
+        <a class="nav-active" href="#">Our Rooms</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="aboutus.html">About us</a>
+        <a href="contactus.html">Contact</a>
+    </div>
+    <div class="navbar">
+        <a href="../../index.html">Home</a>
+        <a class="nav-active" href="#">Our Rooms</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="aboutus.html">About us</a>
+        <a href="contactus.html">Contact</a>
+    </div>
+    <div class="main-img">
+        <img src="../img/room.jpg" alt="">
+        <h1>rooms</h1>
+    </div>
+    <div class="main">
+    <div class="search-area"> 
+        <div class="calender-box">
+            
+            <h3 class="check-head">check in</h3>
+            <i class="fa-solid fa-clock check-clock"></i>
+            <h2 class="time-head">11 AM</h2>
+            <h3 class="check-head">check out</h3>
+            <i class="fa-solid fa-clock check-clock"></i>
+            <h2 class="time-head">9 AM</h2>
+            <i class="fa-solid fa-bell-concierge bell-icon"></i>
+            <h3 class="service">24 X 7&ensp;room service</h3>
+            <h5 class="note">* Prices are subject to availability</h5>
+        </div> 
+    </div>
+    <div class="room-area">
+        <div class="room-area-p1">
+            <img src="../img/r1.jpg" alt="">
+            <div class="room-details">
+                <h3>Water Villa</h3>
+                <i class="fa-solid fa-user-group"></i>
+                <h4>2 guests</h4>
+                <p>On stilts over the ocean with a private freshwater infinity pool.</p>
+                <h2>₹ 27,999</h2>
+                <h1 onclick="openpopup()">book now</h1>
+            </div>
+        </div>
+        <div class="room-area-p1">
+            <img src="../img/r2.jpg" alt="">
+            <div class="room-details">
+                <h3>beach villa</h3>
+                <i class="fa-solid fa-user-group"></i>
+                <h4>2 guests</h4>
+                <p>Set directly on the beach amongst tropical palm trees with sunrise view.</p>
+                <h2>₹ 18,999</h2>
+                <h1 onclick="openpopup()">book now</h1>
+            </div>
+        </div>
+        <div class="room-area-p1">
+            <img src="../img/r3.jpg" alt="">
+            <div class="room-details">
+                <h3>beach resident</h3>
+                <i class="fa-solid fa-user-group"></i>
+                <h4>2 guests</h4>
+                <p>Spacious beachfront Residences, created for luxurious informal outdoor island living.</p>
+                <h2>₹ 23,999</h2>
+                <h1 onclick="openpopup()">book now</h1>
+            </div>
+        </div>
+        <div class="room-area-p1">
+            <img src="../img/r4.jpg" alt="">
+            <div class="room-details">
+                <h3>ocean resident</h3>
+                <i class="fa-solid fa-user-group"></i>
+                <h4>3 guests</h4>
+                <p>The over-water paradise with endless ocean views and oversized private pool.</p>
+                <h2>₹ 33,999</h2>
+                <h1 onclick="openpopup()">book now</h1>
+            </div>
+        </div>
+        <div class="room-area-p1">
+            <img src="../img/r5.jpg" alt="">
+            <div class="room-details">
+                <h3>private pool villa</h3>
+                <i class="fa-solid fa-user-group"></i>
+                <h4>4 guests</h4>
+                <p>Exclusive exeperience with jacuzzi and private king size swimming pool.</p>
+                <h2>₹ 51,999</h2>
+                <h1 onclick="openpopup()">book now</h1>
+            </div>
+        </div>
+    </div>
+    <div class="bg-blur" id="blur-bg"></div>
+    <div class="booking-popup" id="booking-popup">
+        <form action="">
+            <h3 class="close-btn" onclick="closepopup()">X</h3>
+            <h3 class="check">check - in &ensp;&&ensp; check - out</h3>
+
+            <input type="date" name="from-d" id="from-d" class="dates">
+            <h3 class="to">To</h3>
+            <input type="date" name="to-d" id="to-d" class="dates">
+            <h3 class="select-room">select your room</h3>
+            <select name="rooms" id="rooms" class="selection-box">
+                <option value="standard">Standard</option>
+                <option value="delux">Delux</option>
+                <option value="superdelux">Super Delux</option>
+                <option value="luxuriours">Luxuriours</option>
+                <option value="studio">Studio</option>
+            </select>
+            <h3 class="p-num">Name</h3>
+            <input type="text" name="name" id="name" class="name-box">
+            <h3 class="p-num">No of persons</h3>
+            <input type="number" min="1" max="4" name="no" id="no" value="2" class="num-box">
+            <h3 class="p-num">Mobile Number</h3>
+            <input type="text" name="number" id="number"  class="contact-box">
+            <h3 class="payment">PROCEED TO PAYMENT</h3>
+
+
+        </form>
+    </div>
+    </div>
+    <div class="footer">
+        <div class="footer1">
+            <h2 class="footer-heading">Main contacts:</h2>
+            <h3>Abc Resort</h3>
+            <h3>Maldives</h3>
+            <h3>resort@gmail.com</h3>
+            <h3>+91 99999 99999</h3>
+        </div>
+        <div class="footer2">
+            <h2 class="footer-heading">Site Links</h2>
+            <a href="../pages/rooms.html"><h3>our rooms</h3></a>
+            <a href="../pages/gallery.html"><h3>gallery</h3></a> 
+            <a href="../pages/aboutus.html"><h3 >about us</h3></a>
+            <a href="../pages/contactus.html"><h3 >contact us</h3></a>
+        </div>
+        <div class="footer3">
+            <div class="footer3-1">
+                <h2 class="footer-heading">NewsLetter</h2>
+                <input type="email" placeholder="Email">
+                <h4>SUBSCRIBE</h4> 
+            </div>
+            
+                     
+        </div>
+        <div class="footer4">
+            
+            <div class="footer4-1">
+                <h2 class="footer-heading social">Social</h2>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+            </div>
+        </div>
+
+    </div>
+    <div class="last-footer">
+        <div class="last-footer-p1">
+            <h3>Terms of use - privacy policy</h3>
+        </div>
+        <div class="last-footer-p2">
+            <h3>@Copyright</h3>
+        </div>
+        <div class="last-footer-p3">
+            <i class="fa-brands fa-cc-visa"></i>
+            <i class="fa-brands fa-cc-paypal"></i>
+            <i class="fa-solid fa-credit-card"></i>
+            <i class="fa-brands fa-google-pay"></i>
+        </div>
+
+
+        
+    </div>
+</body>

@@ -1,0 +1,595 @@
+body,html
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    
+
+
+}
+.main-img
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    height:35vw;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    background-color: #A7A8A9;
+}
+
+
+.slide-show
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: top;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    opacity: 0;
+    transition: all 1s;
+    
+}
+#ss1
+{
+    opacity: 1;
+}
+.main-img2
+{
+    position: relative;
+    float: left;
+    width: 80%;
+    height:40vw;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #A7A8A9;
+    margin-top: 3vw;
+}
+.main-img2 img
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: center;
+    z-index: 1;
+    opacity: 0.7;
+
+    
+    
+}
+.calender
+{
+    position: absolute;
+    background-color:white;
+    width: 25vw;
+    height: 30vw;
+    z-index: 2;
+    left:50%;
+    /* left: calc(50% - 12.5vw); */
+    /* top: calc(50% - 15vw); */
+    top:50%;
+    transform: translate(-50%,-50%);
+    padding: 3vw;
+    box-sizing: border-box;
+    
+}
+.calender h3
+{
+    margin: 0;
+    padding: 0;
+    font-size: 4vw;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 4.5vw;
+    color: #555555;
+    font-family: 'Amatic SC', cursive;
+}
+.stars
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2vw;
+
+}
+.stars i
+{
+    font-size: 1.8vw;
+    margin-left: 0.4vw;
+    margin-right: 0.4vw;
+    color: #ffd700;
+    
+
+}
+.main-heading2
+{
+    position: relative;
+    float: left;
+    width: 80%;
+    /* background-color: red; */
+    margin-left: 10%;
+    margin-right: 10%;
+
+    
+}
+.main-heading2 h1
+{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    text-transform: uppercase;
+    /* padding-top: 2vw;
+    padding-bottom: 2vw; */
+    padding:2vw 0;
+    padding-bottom:0vw;
+    text-align: center;
+    font-size:3.5vw;
+    font-weight: 300;
+    width: 100%;
+    color: #676767;
+ 
+
+
+
+}
+.main-heading2 h6
+{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    text-transform: uppercase;
+    /* padding-top: 2vw;
+    padding-bottom: 2vw; */
+    padding:2vw 0;
+    padding-top: 2vw;
+    text-align: center;
+    font-size:1vw;
+    font-weight: 400;
+    width: 100%;
+    color: #676767;
+ 
+}
+.pic-gallary
+{
+    position: relative;
+    float: left;
+    width: 90%;
+    /* height: 40vw; */
+    margin-left: 5%;
+    margin-right: 5%;
+    /* background-color: aqua; */
+    /* background-color: black; */
+  
+    
+}
+
+.pic-gallary img
+{
+    position: relative;
+    float: left;
+    width:25vw;
+    height: 17vw;
+    object-fit: cover;
+    vertical-align: center;
+    margin-left: calc((100% - 75vw)/6);
+    margin-right:calc((100% - 75vw)/6);
+    box-sizing: border-box;
+    margin-bottom: 3vw;
+    border-radius: 1vw;
+    /* margin-top: calc((100%-30vw)/4); */
+    /* margin-bottom: calc((100%-30vw)/4); */
+
+    
+}
+.pic-gallary img:hover
+{
+    /* border: 0.2vw solid black; */
+    transform: scale3d(1.2,1.2,1);
+    transition: all 0.7s;
+    opacity: 0.8;
+}
+.offer-area
+{
+    position: relative;
+    float: left;
+    width: 90%;
+    height: 40vw;
+    margin: 0 5%;
+    background-color: #A7A8A9;
+}
+.offer-area img
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: center;
+    /* overflow: hidden; */
+    opacity: 0.7;
+    z-index: 1;
+
+
+}
+
+.offerarea-parts
+{
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 100%;
+    z-index: 2;
+}
+.offerarea-p1
+{
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:whitesmoke;
+
+}
+.offerarea-p1 h1
+{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    text-align: center;
+    font-size: 3vw;
+    margin-bottom: 3vw;
+    text-shadow: 0.2vw 0.2vw  #777777;
+    
+}
+.offerarea-p1 p
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 1.5vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 2vw;
+    line-height:2vw;
+    text-shadow: 0.1vw 0.1vw #777777;
+    
+}
+.offerarea-p2
+{
+    /* background-color:red; */   
+}
+.offer-box1
+{
+    position: relative;
+    float: left;
+    background-color: #E9F0F2;
+    width: 17vw;
+    height: 30vw;
+    /* margin-left: calc((100% - 34vw)/4); */
+    margin-right:calc((100% - 34vw)/4);
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    box-shadow: 0.5vw 0.5vw 0.5vw rgba(0,0,0,0.5);
+    
+}
+.box-part1
+{
+    position: relative;
+    float: left;
+    /* background-color: red; */
+    width: 100%;
+    height: 40%;
+    padding: 1vw;
+    box-sizing: border-box;
+}
+
+
+.offer-title
+{
+    margin: 0;
+    padding: 0;
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    color: #6ab1bf;
+    padding-top: 2vw;
+
+}
+.offer-price
+{
+    margin: 0;
+    padding: 0;
+    font-size: 3vw;
+    font-weight: 400;
+    color: #525252;
+    margin-top: 1vw;
+}
+.offer-days
+{
+    margin: 0;
+    padding: 0;
+    font-size: 1vw;
+    color: #525252;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 1vw;
+}
+.box-part2
+{
+    position: relative;
+    float: left;
+    /* background-color: red; */
+    width: 100%;
+    height: 60%;
+    padding: 1vw;
+    box-sizing: border-box;
+}
+.box-part2 ul
+{
+    margin: 0;
+    padding: 0;
+    margin-left:0;
+    list-style-type: none;
+    
+
+}
+.box-part2 li
+{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    color: #525252;
+    line-height:2vw;
+    font-size:1.2vw;
+
+
+}
+.offer-details
+{
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width:8vw;
+    height:2.2vw;
+    font-size: 1.1vw;
+    background-color: #6AB1BF;
+    text-align: center;
+    /* padding-top:0.55vw ;
+    padding-bottom: 0.55vw; */
+    line-height: 2.2vw;
+    vertical-align: middle;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    margin-top: 2vw;
+    margin-left: 3.5vw;
+    margin-right: 3.5vw;
+    
+}
+.offer-details:hover
+{
+    opacity: 0.7;
+}
+.offer-box2
+{
+    position: relative;
+    float: left;
+    background-color:#E9F0F2;
+    width: 17vw;
+    height: 30vw;
+    margin-left: calc((100% - 34vw)/4);
+    margin-right:calc((100% - 34vw)/4);
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    box-shadow: 0.5vw 0.5vw 0.5vw rgba(0,0,0,0.5);
+   
+}
+.box-bg
+{
+    background-color:#404e56;
+    
+    
+}
+.color-w
+{
+    color: white;
+}
+.color-bg
+{
+    background-color:#404e56 ;
+    color: white;
+    font-weight: 400;
+}
+
+
+@media screen and (max-width:600px) 
+{
+    .main-img
+    {
+        height:70vw;
+    
+    }
+    .main-img2
+    {
+        width: 90%;
+        height:60vw;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .calender
+    {
+        width: 40vw;
+        height: 50vw;
+        padding: 5vw; 
+    }
+    .calender h3
+    {
+        font-size: 6vw;
+        line-height: 8vw;
+    }
+    .stars
+    {
+        margin-top: 3vw;
+    
+    }
+    .stars i
+    {
+        font-size: 3vw;
+    }
+    .main-heading2 h1
+    {
+        padding:3vw 0;
+        padding-bottom:0vw;
+        font-size:5vw;
+    }
+    .main-heading2 h6
+    {
+        padding:2vw 0;
+        font-size:2vw;
+     
+    }
+    .pic-gallary img
+    {
+        width:90%;
+        height: 30vw;
+        margin-left:5%;
+        margin-right:5%;
+    }
+    .offer-area
+    {
+        width: 100%;
+        margin: 0;
+        height:auto;
+        background: none;
+    }
+    .offer-area img
+    {
+        display: none;
+    }
+    .offerarea-parts
+    {
+        width: 100%;
+        height: auto;
+    }
+    .offerarea-p1
+    {
+        display: block;
+    
+    }
+    .offerarea-p1 h1
+    {
+        font-size: 5vw;
+        color:#287086;
+        text-shadow:none;
+        
+    }
+    .offerarea-p1 p
+    {
+        width: 70%;
+        font-size: 3vw;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 0;
+        line-height:4.5vw;
+        text-shadow: none;
+        color:#676767;
+        
+    }
+    .offerarea-p2{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .offer-box1
+    {
+        background-color: #E9F0F2;
+        width: 40%;
+        height: 70vw;
+        margin-right:5%;
+        margin-left: 5%;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+        box-shadow: 0.5vw 0.5vw 0.5vw rgba(0,0,0,0.5);
+        
+    }
+    .box-part1
+    {
+        width: 100%;
+        height: 40%;
+        padding: 3vw;
+    }
+    
+    
+    .offer-title
+    {
+        font-size: 3vw;
+    
+    }
+    .offer-price
+    {
+        font-size: 4vw;
+        margin-top: 3vw;
+    }
+    .offer-days
+    {
+        font-size: 2vw;
+        margin-top: 3vw;
+    }
+    .box-part2
+    {
+        padding: 3vw;
+    }
+    .box-part2 li
+    {
+        line-height:4vw;
+        font-size:2.5vw;
+    
+    
+    }
+    .offer-details
+    {
+        width: 20vw;
+        height:4vw;
+        font-size: 2vw;
+        line-height: 4vw;
+        margin-top: 6vw;
+        margin-left: calc((100% - 20vw)/2);
+        margin-right: calc((100% - 20vw)/2);
+        
+    }
+    .offer-details:hover
+    {
+        opacity: 0.7;
+    }
+    .offer-box2
+    {
+        position: relative;
+        float: left;
+        background-color:#E9F0F2;
+        width: 17vw;
+        height: 30vw;
+        margin-left: calc((100% - 34vw)/4);
+        margin-right:calc((100% - 34vw)/4);
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+        box-shadow: 0.5vw 0.5vw 0.5vw rgba(0,0,0,0.5);
+       
+    }
+        
+        
+
+}
+
+
+
+
+
+
+
+
+
